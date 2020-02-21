@@ -1,0 +1,24 @@
+button {
+    height: 45px;
+    width: 25%;
+    color: white;
+    border: 1px solid #eaeaea;
+    font-weight: bold;
+    background: #555558;
+    font-size: 24px;
+}
+
+.number-button {
+    color: white;
+}
+
+.action-button {
+    background: #fd9e2b;
+    color: #618243;
+}
+
+.equals {
+    color: azure;
+    margin-top: 12px;
+    width: 100%;
+}
