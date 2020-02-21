@@ -78,6 +78,7 @@ export class Calculator extends React.Component {
     {type: 'number', displayValue: '8', action: () => this.enterNumber(8)},
     {type: 'number', displayValue: '9', action: () => this.enterNumber(9)},
     {type: 'multiply', displayValue: '*', action: () => this.onAction('multiply')},
+    {type: 'number', displayValue: '0', action: () => this.enterNumber(0)},
     {type: 'equals', displayValue: '=', action: () => this.equals()},
     {type: 'clear', displayValue: 'C', action: () => this.clear()},
     {type: 'divide', displayValue: '%', action: () => this.onAction('divide')},
